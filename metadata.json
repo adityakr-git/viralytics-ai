@@ -1,0 +1,6 @@
+{
+  "name": "VIRALYTICS AI",
+  "description": "AI-powered video virality prediction & optimization platform by Team Go-Gitters. Upload. Analyze. Optimize. Go Viral.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

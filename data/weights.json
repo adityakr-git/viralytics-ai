@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "name": "viralytics_default_calibrated",
+  "description": "Viral Potential Scoring Weights (Calibrated for short-form video performance across YouTube Shorts, Reels, and TikTok)",
+  "weights": {
+    "audienceRetention": 0.25,
+    "hookStrength": 0.15,
+    "engagementPotential": 0.15,
+    "visualQuality": 0.10,
+    "emotionalImpact": 0.10,
+    "contentRelevance": 0.10,
+    "audioQuality": 0.05,
+    "captionQuality": 0.05,
+    "shareability": 0.05,
+    "hashtagQuality": 0.00,
+    "trendMatch": 0.00
+  },
+  "subscoreLabels": {
+    "hookStrength": "Hook Strength (0-5s)",
+    "audienceRetention": "Audience Retention Potential",
+    "engagementPotential": "Engagement Potential",
+    "visualQuality": "Visual Quality & Lighting",
+    "emotionalImpact": "Emotional Resonance",
+    "contentRelevance": "Content & Topic Relevance",
+    "audioQuality": "Audio & Vocal Clarity",
+    "captionQuality": "Caption & Copywriting",
+    "shareability": "Shareability Index",
+    "hashtagQuality": "Hashtag Velocity",
+    "trendMatch": "Trend Match (TinyFish)"
+  },
+  "confidenceCaps": {
+    "heuristicOnly": 75,
+    "mlEnsemble": 92
+  }
+}

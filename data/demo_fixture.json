@@ -1,0 +1,188 @@
+{
+  "id": "demo-analysis-2026",
+  "filename": "AI Tools You Need in 2026.mp4",
+  "fileSize": "14.2 MB",
+  "durationSeconds": 48,
+  "resolution": "1080x1920 (9:16)",
+  "category": "Tech & Productivity",
+  "targetPlatform": "YouTube Shorts",
+  "caption": "Here are some of the best AI tools you should check out this year! Let me know what you think in the comments.",
+  "hashtags": ["#ai", "#tools", "#tech", "#software"],
+  "overallScore": 87,
+  "confidenceScore": 74,
+  "isDemo": true,
+  "createdAt": "2026-10-06T11:20:00Z",
+  "scores": {
+    "hookStrength": 94,
+    "audienceRetention": 82,
+    "engagementPotential": 89,
+    "visualQuality": 86,
+    "trendMatch": 91,
+    "emotionalImpact": 86,
+    "contentRelevance": 89,
+    "audioQuality": 91,
+    "captionQuality": 82,
+    "hashtagQuality": 78,
+    "shareability": 90
+  },
+  "retentionCurve": [
+    { "timestamp": "0s", "retention": 100, "drop": false },
+    { "timestamp": "3s", "retention": 92, "drop": true, "label": "Drop 1: intro (0-3s)" },
+    { "timestamp": "10s", "retention": 84, "drop": false },
+    { "timestamp": "20s", "retention": 73, "drop": false },
+    { "timestamp": "30s", "retention": 61, "drop": true, "label": "Drop 2: pacing (20-30s)" },
+    { "timestamp": "45s", "retention": 49, "drop": false }
+  ],
+  "retentionDrops": [
+    {
+      "id": "drop-1",
+      "timeframe": "0-3 s",
+      "name": "Drop 1: intro, 0-3 s",
+      "severity": "medium",
+      "dropPercent": 8,
+      "diagnosis": "Slow opening buildup before value deliverable is shown.",
+      "fix": "Trim weak introductory greeting; flash the final output in the first 0.8s."
+    },
+    {
+      "id": "drop-2",
+      "timeframe": "20-30 s",
+      "name": "Drop 2: pacing, 20-30 s",
+      "severity": "high",
+      "dropPercent": 12,
+      "diagnosis": "Monotone pacing with static screen capture and no visual pattern shift.",
+      "fix": "Add zoom-ins, SFX whoosh, kinetic subtitles, or B-roll every 3-4 seconds."
+    }
+  ],
+  "benchmarks": {
+    "category": "Tech & Productivity",
+    "source": "TinyFish Category Intelligence",
+    "isCached": true,
+    "metrics": [
+      { "name": "Hook Strength", "yourScore": 94, "categoryAvg": 90, "topTenPercent": 95 },
+      { "name": "Audience Retention", "yourScore": 82, "categoryAvg": 89, "topTenPercent": 93 },
+      { "name": "Engagement Potential", "yourScore": 89, "categoryAvg": 88, "topTenPercent": 94 }
+    ]
+  },
+  "aiSummary": "Your video has strong viral potential, but the first 4 seconds can be improved.",
+  "hookComparison": {
+    "original": "Today I am going to tell you about some artificial intelligence tools that might help you in your workflow...",
+    "originalScore": 41,
+    "improved": "5 AI tools that do my job in 10 seconds...",
+    "improvedScore": 92,
+    "hookType": "High-Curiosity / Quantified Time-Save Pattern Interrupt",
+    "auditFindings": [
+      "Original opened with passive greeting ('Today I am going to...') which loses 35% of mobile viewers.",
+      "Rewritten version uses concrete number (5) and extreme contrast ('my job in 10 seconds')."
+    ]
+  },
+  "findings": [
+    {
+      "id": "f1",
+      "title": "Intro is 4.2 s too long before main value reveal",
+      "severity": "critical",
+      "category": "Pacing & Retention",
+      "action": "Trim intro to jump directly into tool #1 with an on-screen kinetic card."
+    },
+    {
+      "id": "f2",
+      "title": "Opening can be stronger — high viewer drop risk in first 3s",
+      "severity": "warning",
+      "category": "Hook Quality",
+      "action": "Use the high-curiosity hook rewrite: '5 AI tools that do my job in 10 seconds...'"
+    },
+    {
+      "id": "f3",
+      "title": "Thumbnail text readability low on 320px mobile screens",
+      "severity": "warning",
+      "category": "Visual Packaging",
+      "action": "Increase font size to 72pt and bump background contrast to at least 4.5:1."
+    },
+    {
+      "id": "f4",
+      "title": "Moderate background room noise detected (SNR 18dB)",
+      "severity": "warning",
+      "category": "Audio Quality",
+      "action": "Apply voice isolation or noise reduction filter to crisp up the vocal track."
+    },
+    {
+      "id": "f5",
+      "title": "Topic has extremely high current trend velocity (+340% WoW)",
+      "severity": "good",
+      "category": "Trend Radar",
+      "action": "Capitalize on 'AI Workflow 2026' surge by publishing within peak window (5-8 PM)."
+    },
+    {
+      "id": "f6",
+      "title": "Strong emotional ending and natural conversation cadence",
+      "severity": "good",
+      "category": "Speech & Emotion",
+      "action": "Preserve the conversational call-to-action tone at the 0:42 mark."
+    }
+  ],
+  "improvements": [
+    "Shorten intro by 3 s",
+    "Start with the main result",
+    "Increase subtitle size",
+    "Remove background noise",
+    "Add a stronger CTA"
+  ],
+  "platformFit": [
+    {
+      "platform": "YouTube Shorts",
+      "fitScore": 92,
+      "recommended": true,
+      "reason": "48s vertical format with tech tutorial topic aligns perfectly with current Shorts algorithm focus on informational retention.",
+      "optimalLength": "35-50s",
+      "aspectRatio": "9:16"
+    },
+    {
+      "platform": "TikTok",
+      "fitScore": 88,
+      "recommended": false,
+      "reason": "High shareability and fast pacing, but requires punchier sound design and faster cut frequency (every 2.5s).",
+      "optimalLength": "25-40s",
+      "aspectRatio": "9:16"
+    },
+    {
+      "platform": "Instagram Reels",
+      "fitScore": 84,
+      "recommended": false,
+      "reason": "Visual polish is strong; recommended to emphasize aesthetic color grading and save-prompt CTA.",
+      "optimalLength": "30-45s",
+      "aspectRatio": "9:16"
+    },
+    {
+      "platform": "YouTube Long-form",
+      "fitScore": 42,
+      "recommended": false,
+      "reason": "Aspect ratio (9:16) and short duration are poorly matched for standard landscape long-form viewers.",
+      "optimalLength": "8-14 min",
+      "aspectRatio": "16:9"
+    }
+  ],
+  "optimizedPackage": {
+    "rewrittenHook": "5 AI tools that do my job in 10 seconds...",
+    "improvedCaption": "Stop wasting 15+ hours a week. These 5 new AI workflows handle repetitive tasks on autopilot. Save this before the next update! ⚡ Which one are you trying first?",
+    "optimizedHashtags": ["#AITools", "#ProductivityHacks", "#TechTrends2026", "#WorkflowAutomation", "#CreatorTools"],
+    "thumbnailSuggestion": {
+      "text": "5 AI TOOLS (THAT FEEL ILLEGAL)",
+      "composition": "Large vibrant typography (yellow/white) on left 65%, shock/demonstration reaction frame on right 35%, subtle dark vignette.",
+      "contrastRatio": "6.8:1 (Excellent mobile readability)"
+    },
+    "editPlan": [
+      { "step": 1, "timestamp": "0:00 - 0:03", "instruction": "Trim first 3.2s greeting; begin on live screen recording of Tool #1 generating results." },
+      { "step": 2, "timestamp": "0:03 - 0:15", "instruction": "Overlay bold kinetic subtitle captions (font: Montserrat/Inter ExtraBold, 64pt)." },
+      { "step": 3, "timestamp": "0:20 - 0:28", "instruction": "Insert whip-pan zoom transition to break monotone monologue pacing." },
+      { "step": 4, "timestamp": "0:30 - 0:42", "instruction": "Run a 6dB speech isolator filter to eliminate background fan hum." },
+      { "step": 5, "timestamp": "0:45 - 0:48", "instruction": "Add pinned comment reminder and visual pointing arrow towards the save button." }
+    ]
+  },
+  "trendRadar": {
+    "matchScore": 91,
+    "topKeywords": ["AI Automation", "Productivity 2026", "Workflow Hacks", "Cursor AI", "DeepSeek", "SaaS Tools"],
+    "trendingSounds": ["Futuristic Glitch Tech Audio (120k videos)", "Clean Ambient Lo-Fi (88k videos)"],
+    "risingHashtags": ["#AITools", "#AutomateWork", "#TechTips2026", "#FutureOfTech"],
+    "dataSource": "TinyFish Trend Intelligence (Public Social Web)",
+    "status": "Cached"
+  }
+}

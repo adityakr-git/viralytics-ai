@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  viralytics-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: viralytics-ai-app
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      - DEMO_MODE=true
+      - TINYFISH_API_KEY=${TINYFISH_API_KEY:-}
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+    restart: unless-stopped

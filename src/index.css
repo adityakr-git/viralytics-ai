@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0a0d1a;
+    color: #e2e8f0;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Subtle background tech grid pattern */
+.bg-tech-grid {
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(0, 229, 255, 0.08) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(139, 92, 246, 0.08) 0%, transparent 50%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 32px 32px, 32px 32px;
+}
+
+/* Glassmorphism card styling */
+.glass-panel {
+  background: rgba(16, 22, 40, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-cyan {
+  background: rgba(16, 22, 40, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 229, 255, 0.25);
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.08);
+}
+
+.glass-panel-purple {
+  background: rgba(16, 22, 40, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(139, 92, 246, 0.25);
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.08);
+}
+
+.glass-panel-pink {
+  background: rgba(16, 22, 40, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 61, 154, 0.25);
+  box-shadow: 0 0 20px rgba(255, 61, 154, 0.08);
+}
+
+.glow-cyan {
+  text-shadow: 0 0 12px rgba(0, 229, 255, 0.5);
+}
+
+.glow-purple {
+  text-shadow: 0 0 12px rgba(139, 92, 246, 0.5);
+}

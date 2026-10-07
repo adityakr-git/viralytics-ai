@@ -1,0 +1,359 @@
+{
+  "cachedAt": "2026-10-06T08:00:00Z",
+  "expiresAt": "2026-10-08T08:00:00Z",
+  "source": "TinyFish Trend Radar & Multi-Category Intelligence",
+  "categories": {
+    "Tech & Productivity": {
+      "overallTrendVelocity": 94,
+      "risingTopics": [
+        "Autonomous AI Workflows",
+        "Next-Gen IDEs & Coding Agents",
+        "Local LLMs on Laptop",
+        "Micro-SaaS Builders",
+        "Minimalist Productivity Setups"
+      ],
+      "topHashtags": [
+        "#AITools",
+        "#ProductivityHacks",
+        "#TechTrends2026",
+        "#WorkflowAutomation",
+        "#CodeNewbie",
+        "#SoftwareEngineer"
+      ],
+      "viralFormats": [
+        "10-second proof before explain",
+        "Tool side-by-side speed test",
+        "Contrarian workflow myth-busting"
+      ],
+      "popularAudio": [
+        "Cyber Ambient Pulse - Synthwave (184k videos)",
+        "Lo-Fi Coding Beats - Chillhop (96k videos)"
+      ],
+      "benchmarks": {
+        "audienceRetention": 89,
+        "hookStrength": 90,
+        "engagementPotential": 88
+      }
+    },
+    "Fitness & Health": {
+      "overallTrendVelocity": 93,
+      "risingTopics": [
+        "Form Checks & Spine Safety",
+        "High Protein 15-Minute Meals",
+        "Dumbbell Only Hypertrophy",
+        "Mobility Routines for Desk Workers",
+        "Natural Testosterone & Sleep"
+      ],
+      "topHashtags": [
+        "#FitnessTips",
+        "#GymTok",
+        "#WorkoutRoutine",
+        "#FormCheck",
+        "#Bodybuilding",
+        "#StrengthTraining"
+      ],
+      "viralFormats": [
+        "Do This / Don't Do That side-by-side",
+        "1 rep mistake breakdown with slow-mo zoom",
+        "30-day realistic transformation blueprint"
+      ],
+      "popularAudio": [
+        "Phonk Gym Motivation - High Energy (420k videos)",
+        "Heavy Bass Hardstyle Drop (280k videos)"
+      ],
+      "benchmarks": {
+        "audienceRetention": 86,
+        "hookStrength": 92,
+        "engagementPotential": 90
+      }
+    },
+    "Food & Cooking": {
+      "overallTrendVelocity": 95,
+      "risingTopics": [
+        "10-Minute Crispy Air Fryer Hacks",
+        "Restaurant Secret Garlic Butter",
+        "High Protein Meal Prep Under $3",
+        "One-Pan Weeknight Dinners",
+        "Street Food Recreations at Home"
+      ],
+      "topHashtags": [
+        "#Foodie",
+        "#EasyRecipes",
+        "#CookingHacks",
+        "#AirFryerRecipes",
+        "#ChefTips",
+        "#StreetFood"
+      ],
+      "viralFormats": [
+        "First 1s ASMR crunch / cheese pull hook",
+        "Ingredient flash cut with metric measurements",
+        "Final plate bite reaction with verdict"
+      ],
+      "popularAudio": [
+        "Upbeat Acoustic Whistle Cooking Beat (350k videos)",
+        "Crispy Sizzling ASMR Ambient Track (210k videos)"
+      ],
+      "benchmarks": {
+        "audienceRetention": 91,
+        "hookStrength": 95,
+        "engagementPotential": 91
+      }
+    },
+    "Gaming & Esports": {
+      "overallTrendVelocity": 92,
+      "risingTopics": [
+        "1v4 Impossible Clutch Moments",
+        "Secret Settings Pro Players Hide",
+        "New Season Meta Weapon Loadouts",
+        "Funny NPC Glitches & Fails",
+        "Speedrun World Record Splits"
+      ],
+      "topHashtags": [
+        "#GamingShorts",
+        "#ClutchMoment",
+        "#GamerLife",
+        "#ProTips",
+        "#GameHighlights",
+        "#BGMI"
+      ],
+      "viralFormats": [
+        "Immediate high-stakes 0:00 clutch audio ('Listen closely...')",
+        "Slow-mo headshot crosshair zoom with sound effect",
+        "Contrarian weapon ranking tier list"
+      ],
+      "popularAudio": [
+        "Intense EDM Drop - Victory Anthem (490k videos)",
+        "Dramatic Sub-Bass Buildup (310k videos)"
+      ],
+      "benchmarks": {
+        "audienceRetention": 87,
+        "hookStrength": 94,
+        "engagementPotential": 93
+      }
+    },
+    "Entertainment & Comedy": {
+      "overallTrendVelocity": 91,
+      "risingTopics": [
+        "Relatable Remote Work Scenarios",
+        "Expectation vs Reality 2026",
+        "Overly Specific Daily Struggles",
+        "Awkward Social Situations",
+        "Family & Sibling Humor"
+      ],
+      "topHashtags": [
+        "#ComedyReels",
+        "#Relatable",
+        "#Humor",
+        "#TrendingAudio",
+        "#SketchComedy",
+        "#POV"
+      ],
+      "viralFormats": [
+        "Fast 1-second visual jump cut hook",
+        "POV text overlay with dramatic expression",
+        "Plot twist punchline in last 3s"
+      ],
+      "popularAudio": [
+        "Dramatic Suspense Violins (310k videos)",
+        "Quirky Marimba Beat (145k videos)"
+      ],
+      "benchmarks": {
+        "audienceRetention": 86,
+        "hookStrength": 93,
+        "engagementPotential": 92
+      }
+    },
+    "Lifestyle & Vlog": {
+      "overallTrendVelocity": 89,
+      "risingTopics": [
+        "5 AM Aesthetic Morning Routine",
+        "Realistic Day In My Life (Unfiltered)",
+        "Dorm Room / Studio Apartment Glow-up",
+        "Weekly Reset & Sunday Planning",
+        "What I Eat in a Day (Intuitive Eating)"
+      ],
+      "topHashtags": [
+        "#MiniVlog",
+        "#DailyVlog",
+        "#Aesthetic",
+        "#DayInMyLife",
+        "#MorningRoutine",
+        "#Lifestyle"
+      ],
+      "viralFormats": [
+        "Fast-cut aesthetic montage (8 clips in first 2s)",
+        "Conversational voiceover asking a vulnerable question",
+        "Clean cinematic text timestamps in center frame"
+      ],
+      "popularAudio": [
+        "Warm Coffeehouse Lo-Fi Beats (240k videos)",
+        "Mellow Acoustic Indie Guitar (190k videos)"
+      ],
+      "benchmarks": {
+        "audienceRetention": 84,
+        "hookStrength": 89,
+        "engagementPotential": 89
+      }
+    },
+    "Travel & Adventure": {
+      "overallTrendVelocity": 90,
+      "risingTopics": [
+        "Hidden Gems Tourists Miss",
+        "Budget Travel Under $50 a Day",
+        "Solo Female Travel Safety Tips",
+        "Top 3 Places to Avoid in 2026",
+        "Airport Hacks for Cheap Flights"
+      ],
+      "topHashtags": [
+        "#TravelTips",
+        "#HiddenGem",
+        "#Wanderlust",
+        "#TravelHacks",
+        "#BudgetTravel",
+        "#SoloTravel"
+      ],
+      "viralFormats": [
+        "Breathtaking drone landscape reveal in frame 0",
+        "Price & budget breakdown graphic overlay",
+        "'Do NOT visit this place without knowing this' warning"
+      ],
+      "popularAudio": [
+        "Cinematic Euphoric Travel Synth (320k videos)",
+        "Tropical Chill House Breeze (210k videos)"
+      ],
+      "benchmarks": {
+        "audienceRetention": 88,
+        "hookStrength": 93,
+        "engagementPotential": 90
+      }
+    },
+    "Education & How-To": {
+      "overallTrendVelocity": 88,
+      "risingTopics": [
+        "30-Second Science Breakdown",
+        "Psychological Tricks for Persuasion",
+        "Mastering Public Speaking & Interviews",
+        "Fast Math Shortcuts They Didn't Teach",
+        "History Facts That Sound Fake"
+      ],
+      "topHashtags": [
+        "#LearnOnTikTok",
+        "#EduShorts",
+        "#DidYouKnow",
+        "#LifeHacks",
+        "#SkillShare",
+        "#ScienceFacts"
+      ],
+      "viralFormats": [
+        "Hook question: 'Why does nobody talk about this?'",
+        "Step-by-step 3-bullet breakdown",
+        "Visual demonstration with physical object"
+      ],
+      "popularAudio": [
+        "Inspirational Orchestral Rise (85k videos)",
+        "Soft Piano Background (72k videos)"
+      ],
+      "benchmarks": {
+        "audienceRetention": 85,
+        "hookStrength": 88,
+        "engagementPotential": 87
+      }
+    },
+    "Business & Finance": {
+      "overallTrendVelocity": 87,
+      "risingTopics": [
+        "Side Hustles That Actually Scale in 2026",
+        "Solopreneur Automated Revenue Breakdown",
+        "Index Funds vs Real Estate for Beginners",
+        "How Top Creators Monetize Audiences",
+        "Zero-Cost Tools to Start a Business"
+      ],
+      "topHashtags": [
+        "#BusinessTips",
+        "#MoneyMindset",
+        "#Entrepreneurship",
+        "#StartupGrind",
+        "#SideHustle",
+        "#PassiveIncome"
+      ],
+      "viralFormats": [
+        "Transparent revenue screenshot hook",
+        "Zero-BS breakdown of cost vs profit",
+        "Counter-intuitive financial advice ('Stop doing this')"
+      ],
+      "popularAudio": [
+        "Deep Focus Bassline (64k videos)",
+        "Clean Minimalist Upbeat (51k videos)"
+      ],
+      "benchmarks": {
+        "audienceRetention": 84,
+        "hookStrength": 89,
+        "engagementPotential": 86
+      }
+    },
+    "Music & Dance": {
+      "overallTrendVelocity": 96,
+      "risingTopics": [
+        "Viral Dance Routine Tutorial",
+        "Beat Drop Transitions",
+        "Song Remix Trends",
+        "Acoustic Cover in Unique Locations",
+        "Producer Breakdown of Hit Songs"
+      ],
+      "topHashtags": [
+        "#DanceChallenge",
+        "#ViralMusic",
+        "#TrendingDance",
+        "#SongCover",
+        "#BeatDrop",
+        "#MusicCreator"
+      ],
+      "viralFormats": [
+        "Immediate sync to beat drop at 0:02",
+        "Split-screen comparison with original track",
+        "Slow-mo choreography highlight"
+      ],
+      "popularAudio": [
+        "Viral Global Dance Beat Trend (1.2M videos)",
+        "Hyperpop Bass Drop Remix (540k videos)"
+      ],
+      "benchmarks": {
+        "audienceRetention": 89,
+        "hookStrength": 96,
+        "engagementPotential": 95
+      }
+    },
+    "Fashion & Beauty": {
+      "overallTrendVelocity": 91,
+      "risingTopics": [
+        "Get Ready With Me (GRWM) for High School/Work",
+        "Clean Girl Aesthetic Routine",
+        "Capsule Wardrobe Essentials 2026",
+        "Thrift Store Flip & Styling",
+        "Affordable Dupes for Luxury Skincare"
+      ],
+      "topHashtags": [
+        "#GRWM",
+        "#OutfitInspo",
+        "#BeautyHacks",
+        "#SkincareRoutine",
+        "#FashionTrends",
+        "#OOTD"
+      ],
+      "viralFormats": [
+        "Quick outfit transition snap on beat",
+        "Side-by-side $20 dupe vs $200 original test",
+        "Before/After glow-up reveal in 1.5s"
+      ],
+      "popularAudio": [
+        "Chic French Cafe Rhythms (180k videos)",
+        "Bouncy Pop Runway Beat (290k videos)"
+      ],
+      "benchmarks": {
+        "audienceRetention": 86,
+        "hookStrength": 91,
+        "engagementPotential": 92
+      }
+    }
+  }
+}

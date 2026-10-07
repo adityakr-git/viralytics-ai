@@ -1,0 +1,54 @@
+{
+  "source": "TinyFish Research API Platform Intelligence Report",
+  "disclosure": "Platform algorithms are proprietary and evolve continuously. Recommendations are based on publicly verified empirical retention and format benchmarks.",
+  "platforms": {
+    "YouTube Shorts": {
+      "idealDurationRange": [25, 55],
+      "recommendedAspectRatio": "9:16",
+      "pacing": "Fast cut frequency (every 2.5-4s), strong loop capability",
+      "primaryAudienceDriver": "Audience Retention & Relative Watch Time > 80%",
+      "hookToleranceSeconds": 2.5,
+      "bestPractices": [
+        "First 2 seconds must visually demonstrate the thesis or payoff",
+        "Seamless loop ending dramatically elevates algorithmic push",
+        "Pinned first comment with clear discussion prompt"
+      ]
+    },
+    "TikTok": {
+      "idealDurationRange": [15, 45],
+      "recommendedAspectRatio": "9:16",
+      "pacing": "Ultra-fast cuts, text overlay in center safe area, trending sound underbed",
+      "primaryAudienceDriver": "Completion rate and immediate Shares within first 1,000 impressions",
+      "hookToleranceSeconds": 1.8,
+      "bestPractices": [
+        "Pattern interrupt in frame 1 (rapid zoom, movement, unexpected prop)",
+        "Conversational raw aesthetic often outperforms studio gloss",
+        "3 to 5 targeted niche hashtags rather than generic broad tags"
+      ]
+    },
+    "Instagram Reels": {
+      "idealDurationRange": [20, 45],
+      "recommendedAspectRatio": "9:16",
+      "pacing": "High visual fidelity, aesthetic typography, strong emotional hook",
+      "primaryAudienceDriver": "Saves and Direct Message Shares per 100 views",
+      "hookToleranceSeconds": 2.2,
+      "bestPractices": [
+        "Include actionable takeaway that warrants tapping 'Save'",
+        "High-contrast aesthetic font that fits IG feed aesthetic",
+        "Use 5-8 descriptive hashtags and clear hook in caption line 1"
+      ]
+    },
+    "YouTube Long-form": {
+      "idealDurationRange": [480, 1200],
+      "recommendedAspectRatio": "16:9",
+      "pacing": "Narrative arc, structured chapters, retention peaks at chapter transitions",
+      "primaryAudienceDriver": "Click-Through Rate (CTR) + Average View Duration (AVD)",
+      "hookToleranceSeconds": 15.0,
+      "bestPractices": [
+        "Thumbnail & title packaging account for 60% of reach",
+        "First 30 seconds must reaffirm the title promise without logo filler",
+        "Open loops every 2-3 minutes to prevent drop-off"
+      ]
+    }
+  }
+}
