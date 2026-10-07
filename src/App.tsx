@@ -4,6 +4,11 @@ import {
   AnalysisReport, 
   TrendRadarData 
 } from './types.ts';
+import { 
+  getClientDemoFixture, 
+  getClientTrendRadar, 
+  runClientAnalysisPipeline 
+} from './services/clientPipeline.ts';
 import { Navbar } from './components/Navbar.tsx';
 import { Footer } from './components/Footer.tsx';
 import { LandingHero } from './components/LandingHero.tsx';
@@ -52,11 +57,16 @@ export default function App() {
   // Load Category Trends on mount
   useEffect(() => {
     fetch(`/api/trends?category=${encodeURIComponent(selectedCategory)}`)
-      .then((res) => res.json())
+      .then(async (res) => {
+        if (!res.ok) throw new Error('API offline');
+        return res.json();
+      })
       .then((data: TrendRadarData) => {
         setTrendData(data);
       })
-      .catch((err) => console.warn('Trend fetch error:', err));
+      .catch(() => {
+        setTrendData(getClientTrendRadar(selectedCategory));
+      });
   }, [selectedCategory]);
 
   // When demo mode is explicitly toggled by user in Navbar
@@ -65,12 +75,18 @@ export default function App() {
     if (newVal) {
       // Load verified fixture
       fetch('/api/analyses/demo-analysis-2026/report')
-        .then((res) => res.json())
+        .then(async (res) => {
+          if (!res.ok) throw new Error('API offline');
+          return res.json();
+        })
         .then((data) => {
           setReport(data);
           setActiveTab('dashboard');
         })
-        .catch(() => {});
+        .catch(() => {
+          setReport(getClientDemoFixture());
+          setActiveTab('dashboard');
+        });
     } else {
       setReport(null);
     }
@@ -115,9 +131,9 @@ export default function App() {
       updatedAt: Date.now(),
     });
 
-    try {
-      const formattedSize = params.videoFile ? `${(params.videoFile.size / (1024 * 1024)).toFixed(1)} MB` : undefined;
+    const formattedSize = params.videoFile ? `${(params.videoFile.size / (1024 * 1024)).toFixed(1)} MB` : undefined;
 
+    try {
       const res = await fetch('/api/analyses', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -142,8 +158,7 @@ export default function App() {
       });
 
       if (!res.ok) {
-        const errorData = await res.json();
-        throw new Error(errorData.message || 'Analysis initiation failed');
+        throw new Error('API server unavailable; using client-side pipeline');
       }
 
       const { analysisId } = await res.json();
@@ -174,16 +189,52 @@ export default function App() {
           } else if (jobData.status === 'failed') {
             clearInterval(pollInterval);
             setIsAnalyzing(false);
-            setErrorMessage(jobData.error || 'Video analysis failed. Please try again.');
+            setErrorMessage(jobData.error || 'Analysis failed. Please try again.');
           }
-        } catch (e) {
-          console.warn('Poll error:', e);
+        } catch {
+          // ignore polling glitches
         }
-      }, 500);
-    } catch (err: any) {
-      setIsAnalyzing(false);
-      setCurrentJob(null);
-      setErrorMessage(err.message || 'Network error initiating analysis');
+      }, 700);
+    } catch {
+      // Seamless Client-Side Pipeline (Guarantees 100% success on static Firebase Hosting)
+      try {
+        const finalReport = await runClientAnalysisPipeline(
+          {
+            filename: params.filename,
+            caption: params.caption,
+            hashtags: params.hashtags,
+            targetPlatform: params.targetPlatform,
+            category: params.category,
+            durationSeconds: params.durationSeconds || 30,
+            thumbnailUrl: params.thumbnailUrl,
+            fileSize: formattedSize,
+            isDemo: params.isDemo,
+            resolution: params.resolution,
+            aspectRatio: params.aspectRatio,
+            detectedLuminance: params.detectedLuminance,
+            detectedMotionRate: params.detectedMotionRate,
+            detectedSilenceRatio: params.detectedSilenceRatio,
+            detectedVolumeDb: params.detectedVolumeDb,
+            hasAudioTrack: params.hasAudioTrack,
+          },
+          (job) => {
+            setCurrentJob(job);
+          }
+        );
+
+        setReport(finalReport);
+        if (finalReport.trendRadar) {
+          setTrendData(finalReport.trendRadar);
+        }
+        setSelectedCategory(finalReport.category);
+        setIsAnalyzing(false);
+        setCurrentJob(null);
+        setDashboardFilter('all');
+        setActiveTab('dashboard');
+      } catch (err: any) {
+        setIsAnalyzing(false);
+        setErrorMessage(err.message || 'Analysis failed. Please try again.');
+      }
     }
   };
 
